@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />		
+   		 <meta name="referrer" content="no-referrer">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body>
+		<div id="fmBox" class="Xcenter">
+			<div class="center">
+				<audio id="music">您的浏览器不支持 audio 标签，请升级你的浏览器！</audio>
+				<!--标题头-->
+				<header class="clearFix">
+					<i class="back Ymiddle"></i>
+					<div class="m-title">
+						<h3 class="songTitle">Traveling Light</h3>
+						<p class="singer">Joel Hanson</p>
+					</div>
+					<i class="share Ymiddle"></i>
+				</header>
+				<!--标题与主体之间的渐变分隔线-->
+				<div class="separator Xcenter"></div>
+				<!--主体唱片-->
+				<div class="g-main">
+					<!--专辑页-->
+					<div class="m-cdWrap z-active">
+						<!--指针-->
+						<div class="needle"></div>
+						<!--黑胶碟-->
+						<div class="cdBg Xcenter">
+							<!--专辑封面图-->
+							<div class="cdPic"></div>
+						</div>
+					</div>
+					<!--歌词页-->
+					<div class="m-lyricWrap">
+						<div class="lyricBox">
+							<ul class="lyrics">
+								<li class="light-lyric">抱歉，这首歌暂时还没有上传歌词</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!--进度条与控制栏-->
+				<footer>
+					<!--进度条-->
+					<div class="m-progress">
+						<div class="currentTime time">00:00</div>
+						<div class="progressBar">
+							<div class="progressLine line Ymiddle">
+								<div class="currentProgress line Ymiddle"></div>
+								<div class="progressHandle Ymiddle"></div>
+							</div>
+							
+						</div>
+						<div class="songTime time">00:00</div>
+					</div>
+					<!--控制栏-->
+					<div class="m-controlBtn">
+						<div class="mode Ymiddle"></div>
+						<div class="songControl Xcenter">
+							<div class="prev u-btn Ymiddle"></div>
+							<div class="play u-btn Xcenter"></div>
+							<div class="next u-btn Ymiddle"></div>
+						</div>	
+						<div class="channel Ymiddle" data-channel-id=""></div>
+					</div>
+				</footer>
+			</div>
+			<div class="m-glass">
+					<img src="" class="glassBg">
+			</div>
+			<ul class="channelList"></ul>
+
+		</div>
+		<script type="text/javascript" src="js/root.js"></script>
+		<script type="text/javascript" src="js/music.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+
+	</body>
+
+</html>
